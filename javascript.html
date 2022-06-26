@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>web page on javascript</title>
+	<script type ="text/javascript">
+		function show_alert(){
+			alert("Hello Eveyone");
+		}
+		function showprompt(){
+			name = prompt("Enter Your Name");
+			result = confirm("Your Name is "+name);
+			if (result!="") {
+				document.write("Your Entered Name is: "+name);
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Alert Demo</h1>
+	<input type="button" name="b1" value="click here" onclick="show_alert()">
+	<h1>Prompt and confirm demo</h1>
+	<input type="button" value="Enter Name" onclick="showprompt()">
+</body>
+</html>
